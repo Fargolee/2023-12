@@ -1,0 +1,26 @@
+{
+    "settings": {
+        "auto_goals": 1,
+        "button_goals": 0,
+        "c_recp": "1.00000",
+        "form_goals": 1,
+        "pcs": "0",
+        "publisher": {
+            "schema": "opengraph"
+        },
+        "webvisor": {
+            "arch_type": "none",
+            "date": "2022-08-26 21:23:24",
+            "forms": 1,
+            "recp": "1.00000",
+            "urls": "regexp:.*"
+        },
+        "sbp": {
+            "a": "KngK8mQXbNYGNqX0pWkWXUS8CC9mYy56z5H3SdtflYogSiPswmHoa+Szr8JUhxh2",
+            "b": "9tjg2m6xRjJ4YuEtqfLi6JmitPhpBgnqGXrbT2sMm/Y="
+        },
+        "eu": 0,
+        "hittoken": "1702051229_a05d340ca02963c971cfb331ba116521bd8eb497bee051cc0e159f2132ba389a"
+    },
+    "userData": {}
+}
