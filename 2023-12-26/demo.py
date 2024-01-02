@@ -29,6 +29,19 @@
 # str2 = driver.capabilities['chrome']['chromedriverVersion'].split(' ')[0]  # 查看python下的chromedriver版本
 # print(str1)
 # print(str2)
+# # 创建浏览器对象
+# driver = webdriver.Chrome()
+#
+# # 执行自动化操作
+# # ...
+#
+# # 程序即将结束时，询问是否关闭浏览器
+# choice = input("Do you want to close the browser? (Y/N) ")
+# if choice.lower() == "y":
+#     # 关闭浏览器
+#     driver.quit()
+# else:
+#     print("Browser will remain open.")
 
 
 from selenium import webdriver
@@ -49,17 +62,14 @@ from selenium import webdriver
 options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(options=options)
+url = 'https://www.moulem.com/'
 
-# # 创建浏览器对象
-# driver = webdriver.Chrome()
-#
-# # 执行自动化操作
-# # ...
-#
-# # 程序即将结束时，询问是否关闭浏览器
-# choice = input("Do you want to close the browser? (Y/N) ")
-# if choice.lower() == "y":
-#     # 关闭浏览器
-#     driver.quit()
-# else:
-#     print("Browser will remain open.")
+driver.get(url=url)
+
+driver.maximize_window()
+
+print(driver.get_window_size())
+
+print(driver.current_url)
+
+print(driver.window_handles)
