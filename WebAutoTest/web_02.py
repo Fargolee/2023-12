@@ -16,5 +16,5 @@ driver.get("https://www.baidu.com")
 element = driver.find_element(By.ID, "kw")
 element.send_keys("selenium")
 
-sleep(3)
+sleep(2)
 driver.quit()
